@@ -1,0 +1,98 @@
+.wrapper {
+    width: 90%;
+    max-width: 25em;
+    border: 1px solid black;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: 0.8em;
+}
+
+.app-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-icon {
+    width: 9.371em;
+}
+
+.app-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    color: white;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: white;
+}
+
+input#amount {
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid #02002c;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    color: white;
+}
+
+input#amount:focus {
+    border-color: white;
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+select {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    border-radius: 0.2em;
+    appearance: none;
+    background-image: url(../../../public/assets/images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px 20px;
+    background-color: #9873fe;
+    color: white;
+}
+
+select option {
+    background-color: black;
+    color: white;
+}
+
+button {
+    font-size: 1em;
+    width: 100%;
+    background-color: #9873fe;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+#resultbox {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002c;
+    background-color: #e5dbff;
+}
